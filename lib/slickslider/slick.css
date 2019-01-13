@@ -366,3 +366,19 @@ button.slick-prev, button.slick-prev:hover {
     opacity: .75;
     color: black;
 }
+
+@media screen and (max-width: 767px){
+button.slick-next, button.slick-next:hover{
+    top:98%;
+}
+    button.slick-prev, button.slick-prev:hover{
+        top:98%;
+        left: 260px;
+    }
+    figure.slick-slide{
+    }
+    .slick-slide img{
+        width: 100% !important;
+        height: auto;
+    }
+}
