@@ -91,120 +91,134 @@ nav {
       background-color: #313132;
       color: #fff;
       padding: 17px; }
+    #showCase .showCase01 .section01A {
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: row-reverse;
+      -webkit-flex-direction: row-reverse;
+      position: absolute;
+      top: 0;
+      right: 20px; }
+      #showCase .showCase01 .section01A .btn01A {
+        background-color: #dc2f42;
+        margin-left: 10px;
+        color: #fff; }
+      #showCase .showCase01 .section01A .open01A {
+        background-color: #595959; }
 
 #product .product01 {
   display: flex;
   display: -webkit-flex; }
-  #product .product01 .product01A {
-    box-shadow: 3px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 3px 0px 5px 0px rgba(0, 0, 0, 0.75); }
-    #product .product01 .product01A h3 {
-      font-size: 28px;
-      margin-bottom: 20px;
-      margin-top: 20px; }
-    #product .product01 .product01A .CarCard {
+  #product .product01 .product01A h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+  #product .product01 .product01A .CarCard {
+    position: relative;
+    border: 0; }
+    #product .product01 .product01A .CarCard .card-img-top {
+      width: 140px;
+      height: auto; }
+    #product .product01 .product01A .CarCard .openBtn {
+      background: #198dbb;
+      border: none;
+      padding: 10px 15px;
+      font-size: 20px;
+      cursor: pointer;
+      position: absolute;
+      bottom: 85px;
+      right: 35px;
+      border-top-left-radius: 61px; }
+  #product .product01 .product01A .frontProduct {
+    display: flex;
+    display: -webkit-flex; }
+  #product .product01 .product01A .click {
+    font-size: 33px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    cursor: pointer;
+    transition: all .32s ease;
+    background: red;
+    border-radius: 20px; }
+    #product .product01 .product01A .click .info {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      white-space: nowrap;
+      color: grey;
       position: relative;
-      border: 0; }
-      #product .product01 .product01A .CarCard .card-img-top {
-        width: 140px;
-        height: auto; }
-      #product .product01 .product01A .CarCard .openBtn {
-        background: #198dbb;
-        border: none;
-        padding: 10px 15px;
-        font-size: 20px;
-        cursor: pointer;
-        position: absolute;
-        bottom: 85px;
-        right: 35px;
-        border-top-left-radius: 61px; }
-    #product .product01 .product01A .frontProduct {
-      display: flex;
-      display: -webkit-flex; }
-    #product .product01 .product01A .click {
-      font-size: 33px;
-      color: rgba(0, 0, 0, 0.5);
-      width: 38px;
-      height: 38px;
-      position: absolute;
-      top: 100px;
-      left: 0;
-      cursor: pointer;
-      transition: all .32s ease;
-      background: red;
-      border-radius: 20px; }
-      #product .product01 .product01A .click .info {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 12px;
-        font-weight: 600;
-        text-transform: uppercase;
-        white-space: nowrap;
-        color: grey;
-        position: relative;
-        top: 30px;
-        left: -46px;
-        opacity: 0;
-        transition: all 0.3s ease; }
-      #product .product01 .product01A .click .info-tog {
-        color: #F5CC27;
-        position: relative;
-        top: 45px;
-        opacity: 1;
-        transition: all .32s ease; }
-    #product .product01 .product01A .click span {
-      margin-left: 4px;
-      margin-top: 3px;
-      z-index: 999;
-      position: absolute;
-      transition: all .32s ease; }
-    #product .product01 .product01A span:hover {
-      opacity: 0.8;
-      transition: all .32s ease; }
-    #product .product01 .product01A span:active {
-      transform: scale(0.93, 0.93) translateY(2px);
-      transition: all .32s ease; }
-    #product .product01 .product01A .ring, #product .product01 .product01A .ring2 {
+      top: 30px;
+      left: -46px;
       opacity: 0;
-      background: grey;
-      width: 1px;
-      height: 1px;
-      position: absolute;
-      top: 19px;
-      left: 18px;
-      border-radius: 50%;
-      cursor: pointer;
+      transition: all 0.3s ease; }
+    #product .product01 .product01A .click .info-tog {
+      color: #F5CC27;
+      position: relative;
+      top: 45px;
+      opacity: 1;
       transition: all .32s ease; }
-    #product .product01 .product01A .active span, #product .product01 .product01A .active-2 span {
-      color: #F5CC27 !important;
-      transition: all .32s ease; }
-    #product .product01 .product01A .active-2 .ring {
-      width: 58px !important;
-      height: 58px !important;
-      top: -10px !important;
-      left: -10px !important;
-      position: absolute;
-      border-radius: 50%;
-      opacity: 1 !important;
-      transition: all .32s ease; }
-    #product .product01 .product01A .active-2 .ring {
-      background: #F5CC27 !important;
-      transition: all .32s ease; }
-    #product .product01 .product01A .active-2 .ring2 {
-      background: #fff !important;
-      transition: all .32s ease; }
-    #product .product01 .product01A .active-3 .ring2 {
-      width: 60px !important;
-      height: 60px !important;
-      top: -11px !important;
-      left: -11px !important;
-      position: absolute;
-      border-radius: 50%;
-      opacity: 1 !important;
-      transition: all .32s ease; }
+  #product .product01 .product01A .click span {
+    margin-left: 4px;
+    margin-top: 3px;
+    z-index: 999;
+    position: absolute;
+    transition: all .32s ease; }
+  #product .product01 .product01A span:hover {
+    opacity: 0.8;
+    transition: all .32s ease; }
+  #product .product01 .product01A span:active {
+    transform: scale(0.93, 0.93) translateY(2px);
+    transition: all .32s ease; }
+  #product .product01 .product01A .ring, #product .product01 .product01A .ring2 {
+    opacity: 0;
+    background: grey;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 19px;
+    left: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .32s ease; }
+  #product .product01 .product01A .active span, #product .product01 .product01A .active-2 span {
+    color: #F5CC27 !important;
+    transition: all .32s ease; }
+  #product .product01 .product01A .active-2 .ring {
+    width: 58px !important;
+    height: 58px !important;
+    top: -10px !important;
+    left: -10px !important;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 1 !important;
+    transition: all .32s ease; }
+  #product .product01 .product01A .active-2 .ring {
+    background: #F5CC27 !important;
+    transition: all .32s ease; }
+  #product .product01 .product01A .active-2 .ring2 {
+    background: #fff !important;
+    transition: all .32s ease; }
+  #product .product01 .product01A .active-3 .ring2 {
+    width: 60px !important;
+    height: 60px !important;
+    top: -11px !important;
+    left: -11px !important;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 1 !important;
+    transition: all .32s ease; }
   #product .product01 .product01B {
     display: flex;
     display: -webkit-flex;
-    padding-top: 47px; }
+    padding-top: 47px;
+    -webkit-box-shadow: inset 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 16px 0px rgba(0, 0, 0, 0.75); }
     #product .product01 .product01B .firstmember {
       display: flex;
       display: -webkit-flex;
@@ -236,6 +250,20 @@ nav {
     justify-content: center;
     font-size: 24px;
     margin-bottom: 24px; }
+  #vehicle .vehicle01 .subSliderPrev {
+    width: 32px;
+    height: 29px;
+    padding: 5px 5px;
+    position: absolute;
+    left: 31rem;
+    background-color: #000000; }
+  #vehicle .vehicle01 .subSlidernext {
+    width: 32px;
+    height: 29px;
+    padding: 5px 5px;
+    position: absolute;
+    background-color: #000000;
+    left: 35rem; }
 
 .subStn {
   background-color: #f2f2f2;
@@ -377,6 +405,8 @@ footer {
     #showCase .showCase01 .sliderText {
       margin-right: 30px;
       height: 60px; }
+    #showCase .showCase01 .slider01 {
+      display: none; }
 
   #product .product01 {
     flex-direction: column;
@@ -394,6 +424,15 @@ footer {
     #product .product01 .product01B {
       flex-direction: column;
       -webkit-flex-direction: column; }
+
+  #vehicle {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none; }
+    #vehicle .vehicle01 .subSliderPrev {
+      left: 10rem; }
+    #vehicle .vehicle01 .subSlidernext {
+      left: 13rem; }
 
   .subStn .explanation {
     flex-direction: column;
@@ -418,5 +457,46 @@ footer {
         border-right: 0; }
       footer .footPage .footer03 {
         border-right: 0; } }
+.progreslbar #wrapper {
+  position: absolute;
+  top: 169px;
+  left: 280px; }
+  .progreslbar #wrapper .center {
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%); }
+  .progreslbar #wrapper .progress {
+    width: 79px;
+    height: 79px;
+    background-color: #7e7e7e;
+    border-radius: 50%;
+    border: 10px solid #000; }
+.progreslbar .progress .track, .progreslbar .progress .fill {
+  fill: rgba(0, 0, 0, 0);
+  stroke-width: 10px;
+  -webkit-transform: rotate(90deg) translate(0px, -80px);
+  transform: rotate(90deg) translate(0px, -80px); }
+.progreslbar .progress .track {
+  stroke: dimgray; }
+.progreslbar .progress .fill {
+  stroke: white;
+  stroke-dasharray: 219.99078369140625;
+  stroke-dashoffset: -219.99078369140625;
+  transition: stroke-dashoffset 1s; }
+.progreslbar .progress.blue .fill {
+  stroke: #68b13f; }
+.progreslbar .progress .value, .progreslbar .progress .text {
+  font-family: 'Open Sans';
+  fill: white;
+  text-anchor: middle; }
+.progreslbar .progress .text {
+  font-size: 12px; }
+.progreslbar .noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default; }
 
 /*# sourceMappingURL=style.css.map */
